@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  color: blue;
+  background-color: rgb(0,0,0,0.5);
+}
+.text{
+font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    padding-left: 20px;
+    background-image: url(image/gun.jpg);
+    background-size: cover;
+  background-position: top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+ul li a {
+    color:black;
+    text-decoration: none;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    list-style-type:none
+}
+
+.container2
+{
+display: flex;
+height: 550px;
+
+background-image: url(https://w0.peakpx.com/wallpaper/179/270/HD-wallpaper-abstract-fire-fire-red-smoke-orange.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.text2{
+    
+    width: 50%;
+  
+    padding-top: 150px;
+  padding-left: 130px;
+  gap: 20px;
+}
+.text2 h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 4.9rem;
+  background-image: url(image/fire2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.text2 h2{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: aqua;
+   
+    padding-top: 20px;
+}
+.pic {  
+
+width: 50%; 
+height: 550px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-right: 99px;
+ 
+
+}
+.pic img{
+   
+   padding-bottom:0px ;
+    width: 400px;
+
+    height: 490px;
+  
+   margin-top: 60px;
+    box-shadow: black;
+    border: none;
+    border-radius: 2px;
+}
+.container3{
+    height: 400px;
+    display: flex;
+    
+    color: antiquewhite;
+ 
+
+}
+.community{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border: 2px solid red;
+   padding: 20px;
+   background-color:rgb(84, 76, 85); 
+   border: none;
+}
+.community-p{
+    display: flex;
+
+box-shadow:2px red;
+width: 100%;
+animation: alternate-reverse;
+padding: 20px;
+
+box-shadow: 2px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+font-size: 1.2rem;
+}
+.content{
+    width: 50%;
+  
+   
+  
+   padding-top: 30px;
+    padding-left: 20px;
+}
+.Problem{
+
+}
+#text3{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color:  #7E22CE;
+   border: none;
+}
+.content img{
+    height: 50px;
+   
+}
+.logo{
+
+    display: flex;
+    cursor: pointer;
+}
+.logo2{
+    cursor: pointer;
+    padding-left: 10px;
+}
+.logo2 ul img{
+    width: 60px;
+    height: 60px;
+}
+ .container3 ul{
+ 
+    padding-right: 150px;
+}
+h4{
+    display: flex;
+  
+    margin-left: 10px;
+    align-items: center;
+}
+
+.logo2 h4{
+    
+}
+hr
+{ width: 10px;
+  
+    background-color:rgb(206, 60, 60);
+}
+.container4{
+    display: flex;
+    height: 400px;
+}
+#Skills{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 50%;
+
+    padding-top: 50px;
+}
+#Skills h1{
+    
+    color: rgb(84, 76, 85);
+    padding-top: 90px;
+    font-size: 3.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+}
+
+.pic1{
+    display: flex;
+  
+    width: 250px;
+height: 250px;
+
+}
+
+.container5{
+    display: flex;
+ 
+    
+}
+.my-pic{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+    height: 400px;
+
+}
+#developer {
+display: flex;
+justify-content: space-between;
+   
+}
+#developer h1{
+    padding-right: 100px;
+    color: rgb(84, 76, 85); font-size: 3.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+}
+#developer img{
+    
+   width: 150px;
+   height: 150px;
+   border-radius:50%;
+ cursor: pointer;  
+ 
+}
+.Experience{
+    background-color: #FC490B;
+    width: 50%;
+}
+.Experience h1{
+    padding-left: 50px; 
+    padding-top: 50px;
+    color: white;
+    }
+    .text5{
+       border: none;
+        background-color: rgb(105, 100, 105);
+        margin-top: 50px;
+width: 450px;
+height: 250px;
+margin-left: 50px;
+    }
+    .text5 h6 {
+        color: rgb(241, 240, 236);
+        font-size: 1.2rem;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+.text5:hover{
+    box-shadow: 5px 5px 5px 5px;
+    border: 2px solid rgba(90, 12, 168, 0.452);
+    transition: 0.7s;
+}
+#footer{
+
+background-color: #212e3f;
+height: 100px;
+display: flex;
+justify-content: space-between;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  padding-left: 90px;
+}
+#footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding-top: 50px;
+margin-bottom: 50px;
+color: white;
+}
+
+ .text6{
+    padding-left: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spacer{
+    height: 500px;
+  
+}
